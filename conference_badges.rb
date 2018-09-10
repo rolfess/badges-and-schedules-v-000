@@ -20,9 +20,9 @@ end
 
 def printer (attendees)
   badge_maker (name).each do |name|
-  puts badge_maker.inspect
+  puts badge_maker
   end
   assign_rooms (attendees).each do |attendees|
-  puts attendees.inspect
+  puts attendees
   end
 end

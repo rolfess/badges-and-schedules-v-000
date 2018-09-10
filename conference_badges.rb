@@ -19,7 +19,7 @@ def assign_rooms (attendees)
 end
 
 def printer (attendees)
-  assign_rooms (attendees).each do 
-  puts "#{name}"
+  assign_rooms (attendees).each do
+  puts attendees
   end
 end

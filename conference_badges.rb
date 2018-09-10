@@ -19,7 +19,10 @@ def assign_rooms (attendees)
 end
 
 def printer (attendees)
+  badge_maker (name).each do
+  puts badge_maker.inspect  
+  end
   assign_rooms (attendees).each do
-  puts attendees
+  puts attendees.inspect
   end
 end

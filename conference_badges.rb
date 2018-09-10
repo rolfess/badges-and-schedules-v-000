@@ -20,6 +20,6 @@ end
 
 def printer (attendees)
   batch_badge_creator (attendees).each do |name|
-  put "Hello, #{name}! You'll be assigned to room #{room}!"
+  puts "#{name}"
   end
 end

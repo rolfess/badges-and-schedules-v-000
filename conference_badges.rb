@@ -19,10 +19,10 @@ def assign_rooms (attendees)
 end
 
 def printer (attendees)
-  badge_maker (name).each do
+  badge_maker (name).each do |name|
   puts badge_maker.inspect
   end
-  assign_rooms (attendees).each do
+  assign_rooms (attendees).each do |attendees|
   puts attendees.inspect
   end
 end
